@@ -14,8 +14,8 @@ with open('vectors.txt') as f:
     print(vectors)
 
     # scale the first and last vector
-    for x in range(vectors):
-        print(x)
+    for x in range(len(vectors)):
+        print(vectors[x])
 
         
 
